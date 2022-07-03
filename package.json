@@ -1,0 +1,24 @@
+{
+  "name": "sass-practice",
+  "version": "1.0.0",
+  "description": "here I practice sass for the first time on my own",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilleLee/sass-practice.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "front-end"
+  ],
+  "author": "Wille Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilleLee/sass-practice/issues"
+  },
+  "homepage": "https://github.com/WilleLee/sass-practice#readme"
+}

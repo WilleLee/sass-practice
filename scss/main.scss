@@ -1,0 +1,21 @@
+$font-default: Helvetica, sans-serif;
+$color-main: #0061fd;
+$color-sub: #33c759;
+body {
+  font-family: $font-default;
+  color: $color-main;
+}
+ul {
+  background-color: gray;
+  li {
+    background-color: bisque;
+    list-style: none;
+    padding: 4px 10px;
+    a {
+      background-color: aquamarine;
+      text-decoration: none;
+      color: $color-sub;
+      padding: 2px 5px;
+    }
+  }
+}

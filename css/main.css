@@ -1,0 +1,19 @@
+body {
+  font-family: Helvetica, sans-serif;
+  color: #0061fd;
+}
+
+ul {
+  background-color: gray;
+}
+ul li {
+  background-color: bisque;
+  list-style: none;
+  padding: 4px 10px;
+}
+ul li a {
+  background-color: aquamarine;
+  text-decoration: none;
+  color: #33c759;
+  padding: 2px 5px;
+}/*# sourceMappingURL=main.css.map */
