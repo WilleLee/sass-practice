@@ -133,45 +133,4 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-.rounds .round {
-  border: 2px solid black;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-}
-
-body {
-  font-family: Helvetica, sans-serif;
-  color: #0061fd;
-}
-
-ul {
-  background-color: gray;
-}
-ul li {
-  background-color: bisque;
-  list-style: none;
-  padding: 4px 10px;
-}
-ul li a {
-  background-color: aquamarine;
-  text-decoration: none;
-  color: #33c759;
-  padding: 2px 5px;
-}
-
-.rounds {
-  display: flex;
-  justify-content: center;
-}
-.rounds .round:first-child {
-  background-color: #0061fd;
-}
-.rounds .round:nth-child(2) {
-  background-color: #33c759;
-}
-.rounds .round:last-child {
-  background-color: #ffcc01;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=reset.css.map */

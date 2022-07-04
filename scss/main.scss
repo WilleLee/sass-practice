@@ -1,6 +1,14 @@
-$font-default: Helvetica, sans-serif;
-$color-main: #0061fd;
-$color-sub: #33c759;
+@import "./reset.scss";
+
+@import "./variables.scss";
+
+%round-shaped {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
 body {
   font-family: $font-default;
   color: $color-main;
@@ -17,5 +25,21 @@ ul {
       color: $color-sub;
       padding: 2px 5px;
     }
+  }
+}
+.rounds {
+  display: flex;
+  justify-content: center;
+  .round {
+    @extend %round-shaped;
+  }
+  .round:first-child {
+    background-color: #0061fd;
+  }
+  .round:nth-child(2) {
+    background-color: #33c759;
+  }
+  .round:last-child {
+    background-color: #ffcc01;
   }
 }
